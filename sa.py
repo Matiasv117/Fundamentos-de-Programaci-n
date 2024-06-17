@@ -8,8 +8,8 @@ para guadar todo tipo de texto"""
 
 #Se crea el contexto para abrir un archivo nuevo
 lista=[]
-with open('archivo_nuevo.txt','w',) as luisemilio:
-    luisemilio.write(datos)
+with open('archivo_nuevo.txt','w',) as trabajadores:
+    trabajadores.write(datos)
 
 
 #opcion 2
@@ -17,3 +17,17 @@ with open('archivo_nuevo.txt','w',) as luisemilio:
 with open('clase16/archivo.txt','r',encoding='utf-8') as archivo:
     contenido = archivo.read()
 print(contenido)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
