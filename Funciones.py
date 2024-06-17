@@ -6,7 +6,7 @@ def registrarTrabajador():
     apellido=input("Ingrese su apellido: ")
     listaApellido.append(apellido)
 def listaTodosLosTrabajadores():
-
+    
 def planillaSueldo():
 
 def salirPrograma():
