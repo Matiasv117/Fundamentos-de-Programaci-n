@@ -14,9 +14,9 @@ while True:
                 Funciones.listarTrabajadores()
             elif opcion==3:
                 Funciones.planillaSueldos()
-            elif opcion==5:
+            elif opcion==4:
                 print("Saliendo del programa...")
                 time.sleep(3)
                 break
             else:
-                print("La opción no es válida")
+                print("chupala")

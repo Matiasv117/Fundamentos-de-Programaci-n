@@ -22,6 +22,17 @@ def registrarTrabajador():
             break
         else:
             print("Dato no valido")
+mi_texto = "../texto.txt"
+with open(mi_texto, 'a+') as f:
+    for i in listanombre:
+        f.write(i)
+with open(mi_texto, 'a+') as f:
+    for i in listaApellido:
+        f.write(i)
+with open(mi_texto, 'a+') as f:
+    for i in listaCargo:
+        f.write(i)
 def listaTodosLosTrabajadores():
     
-def planillaSueldo():
+    def planillaSueldo():
+        print("si")
