@@ -2,7 +2,7 @@
 import Funciones
 import time
 while True:
-        print("\n*** Menú Ferretería Reyes ***\n1.-Registrar trabajador\n2.-Listar todos los trabajadores\n3.-Imprimir planilla de sueldos\n4.-Salir del programa\n")
+        print("\n*** Menú Empresa RVR ***\n1.-Registrar trabajador\n2.-Listar todos los trabajadores\n3.-Imprimir planilla de sueldos\n4.-Salir del programa\n")
         try:
             opcion=int(input("Ingrese una opción: "))
         except:
