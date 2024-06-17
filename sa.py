@@ -8,7 +8,7 @@ para guadar todo tipo de texto"""
 
 #Se crea el contexto para abrir un archivo nuevo
 lista=[]
-with open('archivo_nuevo.txt','w',) as trabajadores:
+with open(registrarTrabajador.txt,'r',) as trabajadores:
     trabajadores.write(datos)
 
 
