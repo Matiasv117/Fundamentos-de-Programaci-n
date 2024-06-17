@@ -11,9 +11,9 @@ while True:
             if opcion==1:
                 Funciones.registrarTrabajador()
             elif opcion==2:
-                Funciones.listarTrabajadores()
+                Funciones.listaTodosLosTrabajadores()
             elif opcion==3:
-                Funciones.planillaSueldos()
+                Funciones.planillaSueldo()
             elif opcion==4:
                 print("Saliendo del programa...")
                 time.sleep(3)
