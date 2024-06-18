@@ -1,4 +1,4 @@
-nombre,apellido,cargoFabian,Reyes,CEO
+nombre,apellido,cargo
+Fabian,Reyes,CEO
 Martin,Rivas,CEO
-Matias,Vargas,Analista de datos
-Matias,Vargas,CEO
+Fabian,Reyes,CEO
