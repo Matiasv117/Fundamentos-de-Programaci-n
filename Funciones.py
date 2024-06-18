@@ -5,8 +5,8 @@ listaApellido=[]
 listaCargo=[]
 listaSueldo= []
 sueldobruto=[]
-Desc_AFP=0.88
-Desc_SALUD=0.003
+Desc_AFP=0.012
+Desc_SALUD=0.007
 def registrarTrabajador():
     nombre=input("Ingrese su nombre: ")
     listanombre.append(nombre)

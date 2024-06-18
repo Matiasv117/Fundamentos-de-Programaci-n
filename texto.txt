@@ -2,3 +2,16 @@ nombre,apellido,cargo
 Fabian,Reyes,CEO,10000000
 Martín,Rivas,Analista de datos,750000
 Fabian,Reyes,CEO,10000000
+asd,dsa,Desarrollador,800000
+rtyu,vfxcz,CEO,10000000
+hgsfdg,asdag,CEO,10000000
+tysdfg,gcgs,Desarrollador,800000
+dfhd,asrfa,Analista de datos,750000
+asda,asgdasg,Analista de datos,750000
+ads,dsa,CEO,10000000
+axvads,adhya,Analista de datos,750000
+Fabian,Reyes,CEO,10000000
+holaa,chaoo,CEO,10000000
+chaoo,holaa,Analista de datos,750000
+asd,das,CEO,10000000
+hfedrh,asgf,Desarrollador,800000
