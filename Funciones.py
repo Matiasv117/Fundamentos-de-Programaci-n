@@ -4,7 +4,7 @@ listanombre=[]
 listaApellido=[]
 listaCargo=[]
 listaSueldo= []
-sueldobruto=0
+sueldobruto=[]
 Desc_AFP=0.88
 Desc_SALUD=0.003
 def registrarTrabajador():
@@ -12,8 +12,6 @@ def registrarTrabajador():
     listanombre.append(nombre)
     apellido=input("Ingrese su apellido: ")
     listaApellido.append(apellido)
-    sueldo=input("Ingrese su sueldo bruto")
-    listaSueldo.append(sueldo)
     while True:
         try:
             cargo=int(input("Ingrese su cargo\n1.-CEO\n2.-Desarrollador\n3.-Analista de datos\n: "))
@@ -43,14 +41,15 @@ def registrarTrabajador():
     archivo=open('Fundamentos-de-Programacion/texto.txt', 'a')
     archivo.write(f"{nombre},{apellido},{cargo},{sueldobruto}\n")
 def listaTodosLosTrabajadores():
-    for j in range():
-        print(f"{listanombre},{listaApellido},{listaCargo},{sueldobruto}\n")
+    for j in range(len(listanombre)):
+        print(f"{listanombre},{listaApellido},{listaCargo},{listaSueldo}\n")
+        print("-",end=" ")
 def planillaSueldo():
     for i in range(len(listaSueldo)):
         sueldoAFP.append(listaSueldo[i] * Desc_AFP)
         sueldoSALUD.append(listaSueldo[i] * Desc_SALUD)
-    git config --global user.email "emai"
-
+    print(sueldoAFP)
+    print(sueldoSALUD)
 
 
 

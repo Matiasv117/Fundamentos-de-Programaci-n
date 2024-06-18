@@ -1,1 +1,4 @@
 nombre,apellido,cargo
+Fabian,Reyes,CEO,10000000
+Martín,Rivas,Analista de datos,750000
+Fabian,Reyes,CEO,10000000
