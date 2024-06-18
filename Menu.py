@@ -19,4 +19,4 @@ while True:
                 time.sleep(3)
                 break
             else:
-                print("chupala")
+                print("Opción no valida")

@@ -1,1 +1,4 @@
-Pedro,Hernesto,Desarrollador
+nombre,apellido,cargoFabian,Reyes,CEO
+Martin,Rivas,CEO
+Matias,Vargas,Analista de datos
+Matias,Vargas,CEO

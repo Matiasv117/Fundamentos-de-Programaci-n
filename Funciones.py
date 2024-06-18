@@ -22,8 +22,8 @@ def registrarTrabajador():
             break
         else:
             print("Dato no valido")
-    archivo=open('Fundamentos-de-Programacion/texto.txt', 'w')
-    archivo.write(f"{nombre},{apellido},{cargo}")
+    archivo=open('Fundamentos-de-Programacion/texto.txt', 'a')
+    archivo.write(f"{nombre},{apellido},{cargo}\n")
 def listaTodosLosTrabajadores():
     for i in range(listanombre):
         print(listanombre,listaApellido,listaCargo)
