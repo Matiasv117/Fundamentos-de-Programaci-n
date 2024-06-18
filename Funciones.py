@@ -1,5 +1,6 @@
 sueldoAFP=0
 sueldoSALUD=0
+listaSueldoLiquido=[]
 listanombre=[]
 listaApellido=[]
 listaCargo=[]
@@ -41,15 +42,16 @@ def registrarTrabajador():
     archivo=open('Fundamentos-de-Programacion/texto.txt', 'a')
     archivo.write(f"{nombre},{apellido},{cargo},{sueldobruto}\n")
 def listaTodosLosTrabajadores():
-    for j in range(len(listanombre)):
-        print(f"{listanombre},{listaApellido},{listaCargo},{listaSueldo}\n")
-        print("-",end=" ")
+        for j in range(len(listanombre)):
+            print(f"{listanombre},{listaApellido},{listaCargo},{listaSueldo}\n")
+            print("-",end=" ")
 def planillaSueldo():
     for i in range(len(listaSueldo)):
-        sueldoAFP.append(listaSueldo[i] * Desc_AFP)
-        sueldoSALUD.append(listaSueldo[i] * Desc_SALUD)
-    print(sueldoAFP)
-    print(sueldoSALUD)
+        sueldoliquido=sueldobruto * Desc_AFP
+        resultado=sueldoliquido * Desc_SALUD
+        listaSueldoLiquido.append(resultado)
+    print(sueldoliquido)
+    print(resultado)
 
 
 

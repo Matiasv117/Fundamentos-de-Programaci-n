@@ -15,3 +15,9 @@ holaa,chaoo,CEO,10000000
 chaoo,holaa,Analista de datos,750000
 asd,das,CEO,10000000
 hfedrh,asgf,Desarrollador,800000
+asdgfasd,agad,CEO,10000000
+dasdas,asdadsad,Analista de datos,750000
+asdfasf,gdafd,CEO,10000000
+asdasdas,adsag,Analista de datos,750000
+asdads,dasdas,CEO,10000000
+adgadg,etrutreg,Analista de datos,750000
