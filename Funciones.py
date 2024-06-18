@@ -1,13 +1,12 @@
 sueldoAFP=0
 sueldoSALUD=0
-listaSueldoLiquido=[]
 listanombre=[]
 listaApellido=[]
 listaCargo=[]
 listaSueldo= []
-sueldobruto=[]
-Desc_AFP=0.012
-Desc_SALUD=0.007
+listaSueldoLiquido=[]
+Desc_AFP=0.88
+Desc_SALUD=0.003
 def registrarTrabajador():
     nombre=input("Ingrese su nombre: ")
     listanombre.append(nombre)
@@ -42,17 +41,34 @@ def registrarTrabajador():
     archivo=open('Fundamentos-de-Programacion/texto.txt', 'a')
     archivo.write(f"{nombre},{apellido},{cargo},{sueldobruto}\n")
 def listaTodosLosTrabajadores():
-        for j in range(len(listanombre)):
-            print(f"{listanombre},{listaApellido},{listaCargo},{listaSueldo}\n")
-            print("-",end=" ")
+            print(f"{listanombre}\n{listaApellido}\n{listaCargo}\n{listaSueldo}\n")
 def planillaSueldo():
-    for i in range(len(listaSueldo)):
-        sueldoliquido=sueldobruto * Desc_AFP
-        resultado=sueldoliquido * Desc_SALUD
-        listaSueldoLiquido.append(resultado)
-    print(sueldoliquido)
-    print(resultado)
+        cargo=int(input("Ingrese su cargo\n1.-CEO\n2.-Desarrollador\n3.-Analista de datos\n: "))
+        if cargo==1:
+            sueldobruto=10000000
+            sueldoliquido=sueldobruto*Desc_AFP
+            resultado=sueldoliquido*Desc_SALUD
+            listaSueldoLiquido.append(resultado) 
+            for j in range(len(listanombre)):
+                print(f"{listanombre}\n{listaApellido}\n{listaCargo}\n{listaSueldoLiquido}\n")
+  
+        elif cargo==2: 
+            sueldobruto=800000
+            sueldoliquido=sueldobruto*Desc_AFP
+            resultado=sueldoliquido*Desc_SALUD
+            listaSueldoLiquido.append(resultado)
+            for j in range(len(listanombre)):
+                print(f"{listanombre}\n{listaApellido}\n{listaCargo}\n{listaSueldoLiquido}\n")
 
+        elif cargo==3:
+            sueldobruto=750000
+            sueldoliquido=sueldobruto*Desc_AFP
+            resultado=sueldoliquido*Desc_SALUD
+            listaSueldoLiquido.append(resultado)
+            for j in range(len(listanombre)):
+                print(f"{listanombre}\n{listaApellido}\n{listaCargo}\n{listaSueldoLiquido}\n")
+        else:
+            print("Dato no valido")
 
 
 
