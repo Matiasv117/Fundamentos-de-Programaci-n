@@ -1,4 +1,1 @@
 nombre,apellido,cargo
-Fabian,Reyes,CEO
-Martin,Rivas,CEO
-Fabian,Reyes,CEO
